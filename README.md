@@ -2,9 +2,10 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-Supported-blue.svg)
 
 
+<p align="center">
+  <img src="static/covid19_immunisation_prog.png" width="800" height="400">
+</p>
 
-
-![covid19](static/covid19.png)
 
 # COVID19-cases-prediction
 
