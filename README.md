@@ -33,8 +33,8 @@ Despite the hesitation, vaccines have been proven as the best way to achieve her
 
 # Objectives
 
-a)	To propose a mathematical model forecasting transmission of COVID-19 in Malaysia by incorporating the effect of COVID-19 vaccine waning. 
-b)	To study the impact of vaccination programs on COVID-19 outbreaks.
+a)	To propose a mathematical model forecasting transmission of COVID-19 in Malaysia by incorporating the effect of COVID-19 vaccine waning.   
+b)	To study the impact of vaccination programs on COVID-19 outbreaks.   
 c)	To investigate the percentage of people who need to be immune against COVID-19 disease in order to achieve herd immunity.
 
 # Methodology
