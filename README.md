@@ -78,8 +78,11 @@ On February 24, 2021, Malaysia began its Covid-19 vaccination program two days a
 
 Here, we would like to study the impact of the vaccination program on COVID-19 outbreaks by assuming the initial value of infected from susceptible and vaccinated are roughly 2000 people. To see the noticeable difference in the number of deaths accumulated of COVID-19, we would like to divide the death group in the proposed model into two subgroups that contain the number of deaths from susceptible and the number of deaths from vaccinated with zero as the initial value for both of the subgroups. Hence, the simulation results for this section are shown in Figures 3.2(a) and 3.2(b) below.
 
+<div style="display: flex; justify-content: center;">
+  <img src="static/Impact of vaccination prog infected.PNG" alt="Image 1" style="width: 45%;">
+  <img src="static/Impact of vaccination prog death.PNG" alt="Image 2" style="width: 43%;">
+</div>
 
-Results.............................................................................
 
 In Figure 3.2(a), we notice that the impact of vaccination program does show a significant decrease in the number of infected cases from vaccinated. On the day of the 100th, we observe a reduction of 87.39% for those who have been vaccinated compared to the susceptible people. The same goes to the number of the cumulative deaths in Figure 3.2(b), where there is a reduction of 91.55% on the day of the 300th for those who have been vaccinated. Therefore, from the results obtained, we can conclude that COVID-19 are effective at preventing infection, serious illness, and death. Vaccination can help protect those who are vaccinated as well as those around them by reducing the transmission of disease.
 
@@ -87,7 +90,12 @@ In Figure 3.2(a), we notice that the impact of vaccination program does show a s
 At the onset of the COVID-19 pandemic, Malaysia had initiated travel restrictions and quarantine. However, the situation got worse when there is an increasing number of COVID-19 cases that forced the government of Malaysia to initiate the Movement Control Order (MCO) on 18 March 2020 [27]. Under the Prevention and Control of Infectious Diseases Act 1988 and well as the Police Act 1967, the Movement Control Order is imposed to measures that encompassed restrictions on movement, assembly and international travel, and mandated the closure of business, industry, government and educational institutions to curb the spread of SARS-CoV-2, that causes COVID-19 [28]. On the other hand, the use of face masks also would be mandatory at crowded places in hope that all these efforts will help to reduce the rate of transmission of the COVID-19 [29].
 In this section, we would like to study the impact of transmission rate on the COVID-19 outbreaks by simulating the three different scenarios where the rates of transmission are 0.5, 0.4 and 0.3. The rate of transmission, 0.3 is the lowest in this section where we assume various public health interventions are being imposed and the community has an awareness to follow almost all the preventive measures taken by the government against the COVID-19 outbreak compared to the 0.5, rate of transmission. The simulation results can be seen in Figures 3.3(a) and 3.3(b) respectively.
 
-Results.............................................................................
+
+<div style="display: flex; justify-content: center;">
+  <img src="static/Impact of transmission rate infected.PNG" alt="Image 1" style="width: 45%;">
+  <img src="static/Impact of transmission rate death.PNG" alt="Image 2" style="width: 44%;">
+</div>
+
 
 
 The quantitative analysis in Figure 3.3(a) can be explained by comparing the highest number of infected cases for  = 0.5 with  = 0.4 and 0.3. We observed there is a reduction of 35.87% in the number of infected cases for  = 0.4 while  = 0.3 shows a reduction up to 72.91%. Meanwhile, on the last day of the simulations (300th days) in Figure 3.3(b), there is a reduction of 13.81% and 39.54% in the number of cumulative deaths for  = 0.4 and 0.5 respectively. In addition, the number of cumulative deaths in Figure 3.3(b) shows a constant trend or have the same output for a certain time frame due to the decreased number of infected cases in figure 3.3(a). 
@@ -99,8 +107,10 @@ In the fight against the global spread of COVID-19, vaccination would be the bes
 Many countries are pinning their hopes on the COVID-19 vaccine as the solution for normalcy. At this point, Malaysia is currently progressing quite well in terms of the inoculation of its population where more than 500,000 vaccinations have been recorded as daily COVID-19 vaccination on July 29 [30]. As of September 1, 2021, the percentage of the population that has received two doses of vaccines in Malaysia has achieved a 47% vaccinated population through the National Immunization Program (NIP) [23]. However, we have not seen a substantial reduction in the daily number of COVID-19 cases [23].
 Thus, we would like to investigate the outcome of the vaccinated population for COVID-19 in Malaysia by simulating three different cases where we have achieved a 40%, 60% and 80% total vaccinated population. The trend of the COVID-19 transmission can be investigated from the results we obtained below. 
 
-
-Results.............................................................................
+<div style="display: flex; justify-content: center;">
+  <img src="static/The percentage of vaccinated people infected.PNG" alt="Image 1" style="width: 44%;">
+  <img src="static/The percentage of vaccinated people death.PNG" alt="Image 2" style="width: 45%;">
+</div>
 
 
 
@@ -113,7 +123,9 @@ By January 20, 2022, there are currently seven vaccines approved for use in Mala
 However, there is a study about these vaccines’ wanes after a certain period and the efficiency of the vaccines are illustrated in Figure 3.5.
 
 
-Picture of there types of vaccines and its effectiveness............................................
+<p align="center">
+  <img src="static/Vaccine waning over time.PNG" width="600" height="300">
+</p>
 
 
 # 3.5.1 The function of vaccines wanes 
@@ -133,7 +145,9 @@ Therefore, we have the function of y=0.89∙0.9982t to describe the Pfizer covid
 By doing the same method for AstraZeneca and Sinovac vaccines, we have the function y=0.77∙0.9991t for AstraZeneca and y=0.76∙0.9934t for Sinovac vaccines respectively.
 Thus, the decline in protection against infection for each three types of vaccines can be expressed in Figure 3.5.1 by using the exponential functions obtained.
 
-Graph of vaccines waning over time.................................................................
+<p align="center">
+  <img src="static/Three vaccines waning over time.PNG" width="600" height="350">
+</p>
 
 # 3.5.2 The effect of vaccine wanes over time
 
@@ -141,8 +155,10 @@ The decline in the effectiveness of vaccines against the disease will affect our
 
 
 
-Results.............................................................................
-
+<div style="display: flex; justify-content: center;">
+  <img src="static/Vaccine waning infected.PNG" alt="Image 1" style="width: 50%;">
+  <img src="static/Vaccine waning death.PNG" alt="Image 2" style="width: 45%;">
+</div>
 
 
 From Figure 3.5.2(a), we observed that Sinovac shows the highest number of infected cases achieved compared to the other vaccines. About 176% increase in the number of highest infected cases calculated from the Pfizer-BioNTech while AstraZeneca only shows about 28% increases. Furthermore, on the last day of the simulations (300th day) in Figure 3.5.2(b), Sinovac has increased up to 133% in the number of cumulative deaths while AstraZeneca has slightly increased to 8% from the number of cumulative deaths of Pfizer.
@@ -163,9 +179,14 @@ The error remaining between the regression function and the data set will be mea
 # 4.2 Optimization results
 Through this section, we would like to focus more on BioNTech, Pfizer vaccine since it is the most vaccine used in Malaysia [39]. By using the Nelder-Mead simplex algorithm with the residue sum of square, the optimization can be achieved. The optimization results are display in Figures 4.2(a), 4.2(b) and 4.2(c) respectively.
 
+<div style="display: flex; justify-content: center;">
+  <img src="static/Optimization active cases.PNG" alt="Image 1" style="width: 42%;">
+  <img src="static/Optimization cumulative susceptible death.PNG" alt="Image 2" style="width: 45%;">
+</div>
 
-Results................................................................
-
+<p align="left">
+  <img src="static/Optimization cumulative vaccinated death.PNG" width="430" height="350">
+</p>
 
 We observed that in the early phase of time, there is a small S-curve on the graph in Figure 4.2(a). This is due to the average latent of time of our model for the infected individual to become infectious. However, we able to see that our model are almost fits with the actual data. The value of the uncertain parameters in the proposed model which are the rate of transmission (), the death rate of susceptible (S), and the death rate of vaccinated people (V) that are different for every 12 days are able to be defined and will be used in the section 4.3.
 
